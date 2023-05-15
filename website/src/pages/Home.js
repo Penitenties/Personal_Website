@@ -19,7 +19,7 @@ function Home() {
       <div className='container' style={{ paddingTop: "150px", flexDirection: 'row', width: '60vw', marginLeft: 'auto', marginRight: 'auto', color: 'white', zIndex: '2' }} >
 
         <div style={{ flexDirection: 'column' }}>
-          <h1 style={{ fontSize: '50px' }} >Welcome</h1>
+            <h1 style={{ fontSize: '50px' }} className="homePageHeader">Welcome</h1>
           {/*Text*/}
           <div style={{ width: "30vw", float: 'left'}} >
             <p>I am a full stack developer and recent Drexel graduate.</p>
@@ -27,11 +27,11 @@ function Home() {
         </div>
           {/*Links*/}
         <div style={{ flexDirection: 'column', marginLeft: 'auto', marginTop: '30px' }} >
-          <h1>About me</h1>
+          <h1 className="homePageHeader">About me</h1>
           <div className='hangingBorder' style={{ padding: '10px', flexDirection: 'column' }}>
               <Link to={'./aboutthissite'} className='homePageLink'>About this site</Link>
-              <p>Resume</p>
-              <p>Github</p>
+              <Link to={'./resume' } className='homePageLink'>Resume</Link>
+              <a className='homePageLink' target= "_blank" href="https://github.com/Penitenties/Personal_Website">Github</a>
           </div>
         </div>
       </div>

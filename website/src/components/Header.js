@@ -12,7 +12,8 @@ function Header() {
       <Container style={{ height: '50px' }}>
         <RouterButton buttonText="Home" link="/" />
         <div style={{ float: "right" }}>
-          <RouterButton buttonText="About this site" link={{}} />{/*workaround for linking to same page*/ }
+          <RouterButton buttonText="About this site" link='/aboutthissite' />
+          <RouterButton buttonText="Resume" link='/resume' />
         </div>
       </Container>
 
