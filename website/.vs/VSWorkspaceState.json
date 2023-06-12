@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\components",
     "\\src\\Css",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\components\\JobCard.js",
+  "SelectedNode": "\\public\\favicon.ico",
   "PreviewInSolutionExplorer": false
 }

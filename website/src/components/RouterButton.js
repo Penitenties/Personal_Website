@@ -6,7 +6,7 @@ function RouterButton (props) {
 
   return (
     <Link to={props.link} class='routerButton' style={{ marginRight: '30px' }}>
-        { props.buttonText }
+        <p><b>{ props.buttonText }</b></p>
       </Link>
   );
 

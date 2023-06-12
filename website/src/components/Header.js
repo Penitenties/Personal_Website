@@ -9,7 +9,7 @@ function Header() {
   return (
     <div style={{ background: "#000055", paddingTop: '15px', paddingBottom: '15px', marginBottom: '40px' }}  className='background'  >
 
-      <Container style={{ height: '50px' }}>
+      <Container style={{ height: '50px', paddingTop: '10px', marginBottom: '10px' }}>
         <RouterButton buttonText="Home" link="/" />
         <div style={{ float: "right" }}>
           <RouterButton buttonText="About this site" link='/aboutthissite' />

@@ -23,7 +23,7 @@ function Resume() {
                     </p>
                   </div>
                     <div style={{ height: '45px', paddingLeft: '60px' }} >
-                      <a href='../Downloadable/Ethan_Johnson_resume.docx' download='Ethan_Johnson_resume.docx' className='routerButton' >Download resume</a>
+                      <a href='../Downloadable/Ethan_Johnson_resume.docx' download='Ethan_Johnson_resume.docx' className='downloadButton' >Download resume</a>
                     </div>
                 </div>
 
